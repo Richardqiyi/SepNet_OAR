@@ -13,6 +13,7 @@ docker pull qiyi007/sepnet
 # File Directory
 ```
 .
+|-- SepNet_OAR
 |-- DATASET
     |-- train
         |-- case_01
