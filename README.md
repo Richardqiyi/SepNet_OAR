@@ -16,14 +16,15 @@ docker pull qiyi007/sepnet
 |-- DATASET
     |-- train
         |-- case_01
-            |--
+            |-- <your image>.nii.gz
+            |-- <your mask>.nii.gz
         |-- case_02
             |-- 
         |-- ...
    
     |-- valid
         |-- case_xx
-        |-- ...
+            |-- ...
 
 
 ```
