@@ -17,10 +17,11 @@ docker pull qiyi007/sepnet
 |-- train
 |   |-- case_01
 |   |-- case_02
-|   |--
+|   |-- ...
 |   
 |-- valid
 |   |-- case_xx
+|   |-- ...
 
 
 ```
