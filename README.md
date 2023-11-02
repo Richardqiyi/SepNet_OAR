@@ -1,16 +1,16 @@
 # SepNet
 For original repo, see [SepNet](https://github.com/HiLab-git/SepNet/tree/master)
 
-## Requirements
+#### Requirements
 Pytorch >= 1.4, SimpleITK >= 1.2, scipy >= 1.3.1, nibabel >= 2.5.0 and some common packages.
 
-## Docker
+#### Docker
 
 ```
 docker pull qiyi007/sepnet
 ```
 
-## File Directory
+#### File Directory
 ```
 .
 |-- SepNet_OAR
@@ -31,7 +31,7 @@ docker pull qiyi007/sepnet
 ```
 
 
-## Code
+#### Code
 For Preprocessing
 
 ```
