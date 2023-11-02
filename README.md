@@ -6,12 +6,12 @@ Pytorch >= 1.4, SimpleITK >= 1.2, scipy >= 1.3.1, nibabel >= 2.5.0 and some comm
 
 # Docker
 
-'''
+```
 docker pull
-'''
+```
 
 # File Directory
-'''
+```
 .
 |-- DATASET
 |-- Task01_BrainTumour
@@ -34,22 +34,22 @@ docker pull
 |   |   |   `-- target_spacing
 |   |   `-- old
 
-'''
+```
 
 
 # Code
 
 For training
 
-'''
+```
 traing code here, if there is config, write down how to write config
-'''
+```
 
 For inference
 
-'''
+```
 inference code here, if there is config, write down how to write config
-'''
+```
 
 
 
