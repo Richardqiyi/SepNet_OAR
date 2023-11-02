@@ -7,7 +7,7 @@ Pytorch >= 1.4, SimpleITK >= 1.2, scipy >= 1.3.1, nibabel >= 2.5.0 and some comm
 # Docker
 
 ```
-docker pull
+docker pull qiyi007/sepnet
 ```
 
 # File Directory
@@ -40,9 +40,9 @@ docker pull
 # Code
 
 For training
-
+Change the `data_root` in `config/train.txt` to your data root;
 ```
-traing code here, if there is config, write down how to write config
+python train.py
 ```
 
 For inference
