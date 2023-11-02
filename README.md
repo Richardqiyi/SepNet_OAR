@@ -19,7 +19,7 @@ docker pull qiyi007/sepnet
             |--
         |-- case_02
             |-- 
-|       |-- ...
+        |-- ...
    
 |   |-- valid
 |       |-- case_xx
