@@ -20,7 +20,7 @@ docker pull qiyi007/sepnet
             |-- <your image>.nii.gz
             |-- <your mask>.nii.gz
         |-- case_02
-            |-- 
+            |-- ...
         |-- ...
    
     |-- valid
