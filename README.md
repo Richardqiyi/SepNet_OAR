@@ -51,5 +51,5 @@ For inference
 ```
 python Segmentation.py
 ```
-Notise the you may need to padding Seg.nii.gz to keep consistent with the shape of your test data. See `padding.ipynb` as an example.
+Notise the you may need to padding Seg.nii.gz to keep consistent with the shape of your test data. See `padded.py` as an example.
 
