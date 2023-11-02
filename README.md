@@ -7,7 +7,7 @@ Pytorch >= 1.4, SimpleITK >= 1.2, scipy >= 1.3.1, nibabel >= 2.5.0 and some comm
 #### Docker
 
 ```
-docker pull qiyi007/sepnet
+docker pull qiyi007/sepnet:3.0
 ```
 
 #### File Directory
