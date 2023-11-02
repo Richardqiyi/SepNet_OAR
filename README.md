@@ -19,20 +19,7 @@ docker pull qiyi007/sepnet
 |   |-- imagesTs
 |   `-- labelsTr
 |-- nnformer
-|   |-- __pycache__
-|   |-- dataset_conversion
-|   |-- dataset_json
-|   |-- evaluation
-|   |   |-- __pycache__
-|   |   `-- model_selection
-|   |-- experiment_planning
-|   |   |-- __pycache__
-|   |   |-- alternative_experiment_planning
-|   |   |   |-- normalization
-|   |   |   |-- patch_size
-|   |   |   |-- pooling_and_convs
-|   |   |   `-- target_spacing
-|   |   `-- old
+
 
 ```
 
