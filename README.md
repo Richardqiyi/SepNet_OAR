@@ -40,6 +40,7 @@ docker pull qiyi007/sepnet
 # Code
 
 For training
+
 Change the `data_root` in `config/train.txt` to your data root;
 ```
 python train.py
@@ -48,9 +49,7 @@ python train.py
 For inference
 
 ```
-inference code here, if there is config, write down how to write config
+python Segmentation.py
 ```
-
-
-
+Notize the you may need to padding Seg.nii.gz to keep consistent with the shape of your test data. See `padding.ipynb` as an example.
 
