@@ -14,16 +14,16 @@ docker pull qiyi007/sepnet
 ```
 .
 |-- DATASET
-|   |-- train
+    |-- train
         |-- case_01
             |--
         |-- case_02
             |-- 
         |-- ...
    
-|   |-- valid
-|       |-- case_xx
-|       |-- ...
+    |-- valid
+        |-- case_xx
+        |-- ...
 
 
 ```
