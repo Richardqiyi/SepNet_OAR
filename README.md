@@ -28,6 +28,11 @@ docker pull qiyi007/sepnet
 
 
 # Code
+For Preprocessing
+
+```
+python data_process/Preprocess.py
+```
 
 For training
 
