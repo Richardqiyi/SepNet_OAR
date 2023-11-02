@@ -14,11 +14,13 @@ docker pull qiyi007/sepnet
 ```
 .
 |-- DATASET
-|-- Task01_BrainTumour
-|   |-- imagesTr
-|   |-- imagesTs
-|   `-- labelsTr
-|-- nnformer
+|-- train
+|   |-- case_01
+|   |-- case_02
+|   |--
+|   
+|-- valid
+|   |-- case_xx
 
 
 ```
