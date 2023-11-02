@@ -31,7 +31,8 @@ docker pull qiyi007/sepnet
 For Preprocessing
 
 ```
-python data_process/Preprocess.py
+cd data_process
+python Preprocess.py
 ```
 
 For training
