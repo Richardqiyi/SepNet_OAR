@@ -6,7 +6,7 @@ Pytorch >= 1.4, SimpleITK >= 1.2, scipy >= 1.3.1, nibabel >= 2.5.0 and some comm
 
 #### Dataset
 
-See [HaN-Seg](https://shorturl.at/avEGV)
+See [HaN-Seg](https://grand-challenge.org/forums/forum/the-head-and-neck-organ-at-risk-ct-mr-segmentation-challenge-683/)
 
 #### Docker
 
