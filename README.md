@@ -6,7 +6,7 @@ Pytorch >= 1.4, SimpleITK >= 1.2, scipy >= 1.3.1, nibabel >= 2.5.0 and some comm
 
 #### Dataset
 
-See [HaN-Seg](han-seg2023.grand-challenge.org/)
+See [HaN-Seg](https://han-seg2023.grand-challenge.org)
 
 #### Docker
 
