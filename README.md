@@ -4,6 +4,10 @@ For original repo, see [SepNet](https://github.com/HiLab-git/SepNet/tree/master)
 #### Requirements
 Pytorch >= 1.4, SimpleITK >= 1.2, scipy >= 1.3.1, nibabel >= 2.5.0 and some common packages.
 
+#### Dataset
+
+See [HaN-Seg](https://han-seg2023.grand-challenge.org/)
+
 #### Docker
 
 ```
