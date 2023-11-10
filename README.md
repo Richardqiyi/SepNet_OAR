@@ -1,5 +1,5 @@
 # SepNet
-For original repo, see [SepNet](https://github.com/HiLab-git/SepNet/tree/master)
+For original repo, see [SepNet](https://doi.org/10.1002/mp.16197)
 
 #### Requirements
 Pytorch >= 1.4, SimpleITK >= 1.2, scipy >= 1.3.1, nibabel >= 2.5.0 and some common packages.
