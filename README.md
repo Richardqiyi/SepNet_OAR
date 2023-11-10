@@ -9,7 +9,7 @@ See [HaN-Seg](https://doi.org/10.1002/mp.16197)
 Pytorch >= 1.4, SimpleITK >= 1.2, scipy >= 1.3.1, nibabel >= 2.5.0 and some common packages.
 
 #### GPU
-2x NVIDIA GeForce GTX 1080Ti 11G
+2 NVIDIA GeForce GTX 1080Ti 11G
 
 #### Docker
 
