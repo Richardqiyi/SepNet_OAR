@@ -6,10 +6,10 @@ from data_process_func import *
 import matplotlib.pyplot as plt
 
 
-data_root = '/lyc/MICCAI-19-StructSeg/HaN_OAR_center_crop'
-filename_list = ['data.nii.gz', 'label.nii.gz']
-savename_list = ['crop_data.nii.gz', 'crop_label.nii.gz']
-modelist = [ 'valid']
+data_root = '/code/Compare/Struct_NIIGZ/'
+filename_list = ['case_40_0000.nii.gz', 'case_40.nii.gz']
+savename_list = ['train.nii.gz', 'label.nii.gz']
+modelist = [ 'valid','train']
 scale_num = [16, 16, 16]
 save_as_nifty = True
 respacing = False
@@ -23,6 +23,12 @@ for mode in modelist:
     filelist =os.listdir(os.path.join(data_root, mode))
     filenum = len(filelist)
     for ii in range(filenum):
+        
+        filename_list[0] = filelist[ii] + "_0000.nii.gz"
+        filename_list[1] = filelist[ii] + ".nii.gz"
+        # savename_list[0] = "crop_" + filename_list[0]
+        # savename_list[1] = "crop_" + filename_list[1]
+        
         data_path = os.path.join(data_root, mode, filelist[ii], filename_list[0])
         data_crop_norm_save_path = os.path.join(data_root, mode, filelist[ii], savename_list[0])
 
@@ -37,9 +43,9 @@ for mode in modelist:
 
         center = data.shape[1] // 2
 
-	data_crop = data[:, center-r:center+r, center-r:center+r]
-	data_crop_norm = normalize(data_crop, thresh_lis, norm_lis)
-	label_crop = label[:, center-r:center+r, center-r:center+r]
+        data_crop = data[:, center-r:center+r, center-r:center+r]
+        data_crop_norm = normalize(data_crop, thresh_lis, norm_lis)
+        label_crop = label[:, center-r:center+r, center-r:center+r]
 
 
 
