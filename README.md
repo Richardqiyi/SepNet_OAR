@@ -1,11 +1,15 @@
 # SepNet
 For original repo, see [SepNet](https://github.com/HiLab-git/SepNet/tree/master)
-#### Requirements
-Pytorch >= 1.4, SimpleITK >= 1.2, scipy >= 1.3.1, nibabel >= 2.5.0 and some common packages.
 
 #### Dataset
 
 See [HaN-Seg](https://doi.org/10.1002/mp.16197)
+
+#### Environment
+Pytorch >= 1.4, SimpleITK >= 1.2, scipy >= 1.3.1, nibabel >= 2.5.0 and some common packages.
+
+#### GPU
+2x NVIDIA GeForce GTX 1080Ti 11G
 
 #### Docker
 
@@ -42,7 +46,7 @@ cd data_process
 python Preprocess.py
 ```
 
-For training
+For training, using Adam optimizer, lr = 1e^{-3}, batch size = 4, epoch = 400
 
 Change the `data_root` in `config/train.txt` to your data root;
 ```
