@@ -1,12 +1,11 @@
 # SepNet
-For original repo, see [SepNet](https://doi.org/10.1002/mp.16197)
-
+For original repo, see [SepNet](https://github.com/HiLab-git/SepNet/tree/master)
 #### Requirements
 Pytorch >= 1.4, SimpleITK >= 1.2, scipy >= 1.3.1, nibabel >= 2.5.0 and some common packages.
 
 #### Dataset
 
-See [HaN-Seg](https://grand-challenge.org/forums/forum/the-head-and-neck-organ-at-risk-ct-mr-segmentation-challenge-683/)
+See [HaN-Seg](https://doi.org/10.1002/mp.16197)
 
 #### Docker
 
